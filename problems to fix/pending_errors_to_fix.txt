@@ -1,0 +1,16 @@
+1. Keep user logged in function does not start other sessions.
+2. Chat problem, messages beyond limit do not display.
+3. Cache pages on device memory.
+4. On validate, got to remove the __construct function because it seems useless as the properties may be initialised right at their position.
+5. When fetching followers you should exec that (But I might be right the way I did it at first).
+6. On chat where page when refreshed the _GET details fade, you have to set that when the page is refreshed it goes back to chat.
+7. Some ids are unknown on a new account for my dad Themba Dube. It's actually the recently added accounts.
+8. I have to fix the issue of image posts that a user is able to post an image with or without a caption.
+9. On index.php, take the chat system to its own private file. because index should be with news feed.
+10. When deleting posts make sure that tables in relationships also delete corresponding rows.
+
+
+POSTS ERRORS
+            11. When a post is not fount it should reflect that the post is no longer available.
+12. Got to work on inserting likes, following and unfollowing, comments, replys.
+13. Avoid a comment being likes more than once
